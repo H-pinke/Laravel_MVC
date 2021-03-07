@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-<h3>laravel blade 模板视图</h3>
+<h3>laravel mvc 模板视图</h3>
 用户ID:{{ $data['id'] }} <br/>
 用户昵称:{{ $data['name'] }} <br/>
 用户邮箱:{{ $data['email'] }} <br/>

@@ -14,9 +14,7 @@ class WelcomeController
 
         $app = Container::getInstance();
         $factory = $app->make('view');
-       // var_dump($factory->make('welcome'));die;
         return $factory->make('welcome')->with('data', $data);
 
-        //var_dump($data);
     }
 }
